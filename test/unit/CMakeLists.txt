@@ -4,7 +4,7 @@ project(os161-test)
 #set(GCC_COMPILE_FLAGS_TEST -Wno-unused-function -Wno-unused-variable -nostdlib )
 set(GCC_COMPILE_FLAGS_TEST -fno-builtin)
 
-# Download Google Test
+# Download Catch
 include(FetchContent)
 FetchContent_Declare(
         Catch2
