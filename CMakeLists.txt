@@ -9,6 +9,7 @@ set(GCC_COMPILE_FLAGS -nostdlib -fno-builtin)
 SET(CMAKE_BUILD_TYPE Debug)
 
 include_directories(kern/include)
+include_directories(kern/dev)
 include_directories(kern/compile/ASST0)
 include_directories(kern/compile/ASST0/includelinks)
 include_directories(kern/compile)
