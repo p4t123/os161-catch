@@ -4,7 +4,7 @@ project(os161 C)
 set(CMAKE_CXX_STANDARD 11)
 
 #set(GCC_COMPILE_FLAGS -Wall -Werror -Wvla -O0 -nostdlib -fno-builtin)
-set(GCC_COMPILE_FLAGS -nostdlib -fno-builtin)
+set(GCC_COMPILE_FLAGS -nostdlib -fno-builtin -ffreestanding)
 
 SET(CMAKE_BUILD_TYPE Debug)
 

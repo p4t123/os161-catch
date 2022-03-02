@@ -2,7 +2,7 @@ project(os161-test)
 
 # These are compiler flags specific for running tests.
 #set(GCC_COMPILE_FLAGS_TEST -Wno-unused-function -Wno-unused-variable -nostdlib )
-set(GCC_COMPILE_FLAGS_TEST -fno-builtin)
+set(GCC_COMPILE_FLAGS_TEST -fno-builtin -ffreestanding)
 
 # Download Catch
 include(FetchContent)
